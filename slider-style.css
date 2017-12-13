@@ -1,0 +1,55 @@
+*{
+  border: none;
+}
+body{
+padding-top: 50px;
+	background-size: cover;
+	background-image: url('http://image.free.in.th/v/2013/ia/140114093927.jpg');
+}
+section{
+	width: 800px;  /* to move the bar to left or right */
+	height: 30px;
+	margin: 40px auto 0px;
+	position: relative;
+}
+
+
+
+/* Type 2 */
+.slider.type2{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #01579B; /* border colour */
+	border-radius: 25px;
+	width: 650px;
+	position: absolute;
+	height: 8px;
+	background: #E0E0E0; /* Background colour */
+	left: 20px;
+	box-shadow: 1px 1px 1px #19212b inset,
+				0px 1px 1px #3b5169;
+}
+.type2 .ui-slider-handle{
+	position: absolute;
+	z-index: 2;
+	width: 15px;
+	height: 15px;
+	border-radius: 8px;
+	cursor: pointer;
+	background: #424242;  /* Button colout */
+	font-weight: bold;
+	color: #1c94c4;
+	outline: none;
+	top: -5px;
+	margin-left: -12px;
+	box-shadow: 0px 1px 1px #ffffff inset,
+				0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.type2 .ui-slider-range{
+		background: #1E88E5; /* Inside slider colout */ 
+		position: absolute;
+		border: 0;
+		top: -1px;
+		bottom: -1px;
+		border-radius: 3px;
+}
